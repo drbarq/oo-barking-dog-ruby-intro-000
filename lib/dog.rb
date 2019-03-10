@@ -1,7 +1,10 @@
 class Dog
 
-  def name
+  def initalize(name)
     @name = name
+
+  def name
+    @name
   end
 
   def name=(new_name)
